@@ -1,0 +1,84 @@
+1.Explict (higher data type into lower data type)
+
+
+
+*************************************************************************************
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner s = new Scanner(System.in);
+	System.out.println("Hey Anand Enter an integer value");
+	int v=s.nextInt();
+	char c=(char) v;
+	System.out.println("coverted into ASCI value of that interger: "  +c);
+	}
+}
+***************************************************************
+2.implict (lower data type to higher data type)
+
+*******************************************************************************/
+public class Main{
+  
+   public static void main(String[] args){
+       char c='F';
+       int v=c;
+       System.out.println(v);
+   }
+}
+   
+******************************************
+3. printing Anand woord
+*******************************************************************************/
+public class Main{
+  
+   public static void main(String[] args){
+      
+       System.out.println("Hello Anand");
+   }
+}
+   
+**************************************************************
+4.add two number
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	  System.out.println("Enter the two no");
+	Scanner s = new Scanner(System.in);
+	int a=s.nextInt();
+	int b=s.nextInt();
+	int x=a+b;
+    System.out.println(+x);
+	}
+}
+5.basic add,sub ,multiplication
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	  System.out.println("Enter the two no");
+	Scanner s = new Scanner(System.in);
+	int a=s.nextInt();
+	int b=s.nextInt();
+	int x=a+b;
+	int y=a-b;
+	int z=a*b;
+    System.out.println(" Add  Sub  MUL is"+ " "+x+" " +y +" " +z);
+	}
+}
+6.*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	  System.out.println("Enter the two no");
+	Scanner s = new Scanner(System.in);
+	int a=s.nextInt();
+	int b=s.nextInt();
+	int x=a+b,y=a-b, z=a*b;
+    System.out.println(" Add is " + " "+x + "Sub is" +" " +y+"mul is"+ " "+z);
+	}
+}
